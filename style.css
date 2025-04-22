@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 70vh;
+    background-color: #2C2C2C;
+}
+
+nav{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    width: 40%;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo p{
+    color: white;
+    margin-left: 25px;
+    font-family: "Teko", sans-serif;
+    font-size: 2em;
+}
+
+.menu{
+    display: flex;
+    width:40%;
+    height: 4vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: #E4E4E4;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+}
+
+.main_info_header{
+    width: 100%;
+    height: 66vh;
+    display: flex;
+}
+
+.text_header{
+    width: 50%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rod_text_header{
+    width: 35%;
+    height: 66vh;
+}
+
+.rod_text_header h2{
+    font-size: 2.5em;
+    font-family: "Quicksand", sans-serif;
+}
+
+.rod_text_header h1{
+    font-size: 3.5em;
+    font-family: "Quicksand", sans-serif;
+}
+
+.rod_text_header p{
+    font-size: 1.1em;
+    font-family: "Quicksand", sans-serif;
+}
+
+.rod_text_header a{
+    background-color: yellow;
+    padding: 10px 25px 10px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+    box-shadow: 0 0 10px yellow;
+}
+
+.image_header{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sphere{
+    width: 40%;
+    height: 40vh;
+    border: 60px solid #00C4F0;
+    border-radius: 100%;
+    box-shadow: 0 0 50px #00C4F0;
+}
+
+.mini_sphere1{
+    width: 20%;
+    height: 8vh;
+    background-color: #414141;
+    border-radius: 100%;
+}
